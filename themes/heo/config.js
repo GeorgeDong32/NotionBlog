@@ -74,10 +74,10 @@ const CONFIG = {
     {
       title_1: 'VS',
       img_1: '/images/heo/vs.webp',
-      color_1: '#f29e39',
+      color_1: '#ffffff',
       title_2: 'vscode',
       img_2: '/images/heo/vsc.webp',
-      color_2: '#2c51db'
+      color_2: '#ffffff'
     },
     {
       title_1: 'JS',
