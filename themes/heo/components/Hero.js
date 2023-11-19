@@ -16,6 +16,7 @@ import CONFIG from '../config'
  */
 const Hero = props => {
   return (
+
     <div
       id="hero-wrapper"
       className="recent-top-post-group w-full overflow-hidden select-none px-5 mb-4"
@@ -27,11 +28,13 @@ const Hero = props => {
           'animate__animated animate__fadeIn animate__fast recent-post-top rounded-[12px] 2xl:px-5 recent-top-post-group max-w-[86rem] overflow-x-scroll w-full mx-auto flex-row flex-nowrap flex xl:space-x-3 relative'
         }
       >
+
         {/* 左侧banner组 */}
         <BannerGroup {...props} />
 
         {/* 右侧置顶文章组 */}
         <TopGroup {...props} />
+
       </div>
     </div>
   )
@@ -48,6 +51,7 @@ function BannerGroup(props) {
       id="bannerGroup"
       className="flex flex-col justify-between flex-1 mr-2 max-w-[42rem]"
     >
+
       {/* 动图 */}
       <Banner {...props} />
       {/* 导航分类 */}
@@ -367,7 +371,7 @@ function TodayCard({ cRef, siteInfo }) {
               className={'w-6 h-6 mr-2 bg-white rounded-full stroke-indigo-400'}
             />
             <div id="more" className="select-none">
-              更多推荐
+              最新文章
             </div>
           </div>
         </div>
